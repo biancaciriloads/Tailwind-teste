@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme{
+    /* Cores precisam do prefixo --color- */
+    --color-primary: #2091F9;
+    --color-text: #252B42;
+    --color-secondary-text: #374754;
+    --color-dark-background: #252B42;
+
+    /* Fontes precisam do prefixo --font- */
+    --font-graphik-bold: "Graphik-bold";
+    --font-graphik: "Graphik";
+}

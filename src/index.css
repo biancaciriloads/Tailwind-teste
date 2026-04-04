@@ -3,6 +3,10 @@
 @theme {
   --font-graphik-bold: "Graphik-bold", sans-serif;
   --font-graphik: "Graphik", sans-serif;
+  --color-primary: #2091F9;
+  --color-text: #252B42;
+  --color-secondary-text: #374754;
+  --color-dark-background: #252B42;
 }
 
 @font-face {
@@ -16,3 +20,4 @@
     src: url("./assets/Fontes/Graphik/Graphik-Regular-Trial.otf") format("opentype");
     font-weight: normal;
 }
+

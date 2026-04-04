@@ -1,8 +1,16 @@
+import { Button } from './Components/bottom'
+
 function App() {
   return (
-    <>
-      <h1 className="text-blue-500 font-graphik-bold">Hello World!</h1>
-      </>
+    <div className='bg-dark-background'>
+      <h1 className='text-dark-background'>Hello World</h1>
+      <Button>Primary Background</Button>
+      <Button variant='secondary'>Secondary Background</Button>
+      <Button isBold>Bold Text with Primary Background</Button>
+      <Button isBold variant='secondary'>
+        Bold Text with Secondary Background
+      </Button>
+    </div>
   )
 }
 

@@ -7,6 +7,7 @@
   --color-text: #252B42;
   --color-secondary-text: #374754;
   --color-dark-background: #252B42;
+  --breakpoint-xs:400px;
 }
 
 @font-face {
@@ -20,4 +21,3 @@
     src: url("./assets/Fontes/Graphik/Graphik-Regular-Trial.otf") format("opentype");
     font-weight: normal;
 }
-
